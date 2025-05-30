@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+/* estilos que le puse al Header */
+.header {
+  background-color: #c4c4c4;
+  display: flex;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+  height: 100px;
+  
+}
+.header__title {
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+.div__header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+.header__img{
+    width: 70px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.nav__link {
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+/* Main Section */
+.main {
+  padding: 2rem;
+}
+/* estilos para la seccion de Infromacion F1  */
+.informacion {
+  background-color: #a5a39e;
+  padding: 2rem;
+  border-left: 5px solid #000000;
+  margin-bottom: 2rem;
+}
+
+.informacion__title, .informacion__title--2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(255, 243, 243);
+}
+
+.informacion__text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #ffeec8;
+}
